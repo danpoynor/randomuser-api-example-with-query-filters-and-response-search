@@ -1,0 +1,57 @@
+@use 'abstracts' as *;
+
+header {
+  display: grid;
+  grid-gap: .5rem;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: "headline" "searchFilters";
+
+  @media screen and (min-width: 1140px) {
+    gap: 2.5rem;
+    grid-template-areas: "headline searchFilters";
+    grid-template-columns: -webkit-max-content 1fr;
+    grid-template-columns: max-content 1fr;
+  }
+
+  h1 {
+    grid-area: headline;
+  }
+
+  section {
+    display: grid;
+    grid-area: searchFilters;
+    grid-gap: $grid-spacing;
+    grid-template-areas:
+    "nationality"
+    "gender"
+    "q";
+
+    [name="nationality"] {
+      grid-area: nationality
+    }
+
+    [name="gender"] {
+      grid-area: gender
+    }
+
+    [type="search"] {
+      grid-area: q;
+    }
+
+    @media screen and (min-width: 420px) {
+      grid-template-areas:
+      "nationality gender"
+      "q q";
+    }
+
+    @media screen and (min-width: 640px) {
+      grid-template-areas:
+      "nationality gender q";
+    }
+
+    @media screen and (min-width: 1140px) {
+      grid-template-columns: min-content min-content auto;
+    }
+  }
+}

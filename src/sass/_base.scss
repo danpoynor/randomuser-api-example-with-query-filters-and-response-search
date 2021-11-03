@@ -1,0 +1,49 @@
+@use 'abstracts' as *;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: $background-color;
+  color: #83898d;
+  font-family: $font-family;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  min-width: 320px;
+  padding: 2rem;
+
+  @media screen and (min-width: 640px) {
+    padding: 3rem 4rem;
+  }
+}
+
+h1 {
+  color: #6a6a6a;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+h2 {
+  display: none;
+}
+
+h4 {
+  color: #404a51;
+  font-size: 1.2rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+section {
+  margin-bottom: $grid-spacing;
+}

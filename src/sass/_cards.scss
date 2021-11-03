@@ -1,0 +1,83 @@
+@use 'abstracts' as *;
+
+main {
+  > section {
+    ul {
+      display: grid;
+      gap: $grid-spacing;
+      grid-template-rows: auto;
+      margin-top: $grid-spacing;
+
+      @media screen and (min-width: 960px) {
+        grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+      }
+
+      figure {
+        align-items: center;
+        background-color: $card-background-color;
+        border-radius: $border-radius;
+        border: $border;
+        display: grid;
+        gap: $grid-spacing;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "image"
+          "text";
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        justify-items: center;
+        padding: .5rem;
+        text-align: center;
+        transition: all .3s ease-in-out;
+
+        @media screen and (min-width: 570px) {
+          padding: 1rem;
+        }
+
+        @media screen and (min-width: 680px) {
+          grid-template-areas: "image text";
+          grid-template-columns: 128px 1fr;
+          padding: 1.5rem;
+        }
+      }
+
+      figcaption {
+        grid-area: text;
+
+        @media screen and (min-width: 680px) {
+          margin-right: auto;
+          text-align: left;
+        }
+      }
+
+      h3 {
+        margin-bottom: .25rem;
+      }
+
+      img {
+        border-radius: 50%;
+        grid-area: image;
+        margin-right: 1rem;
+      }
+
+      &[data-state=active] {
+        li > figure {
+          cursor: pointer;
+
+          &:hover {
+            box-shadow: 2px 4px 8px #999;
+            transform: scale($card-zoom);
+          }
+        }
+      }
+    }
+
+    // no results message
+    > p {
+      color: red;
+      font-size: 1.25rem;
+      font-weight: 700;
+      text-align: center;
+    }
+  }
+}

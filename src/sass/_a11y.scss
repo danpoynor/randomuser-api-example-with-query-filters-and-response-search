@@ -1,0 +1,12 @@
+@use 'abstracts' as *;
+
+a,
+button,
+input,
+select,
+textarea {
+  &:focus-visible {
+    outline: var(--focus-ring);
+    outline-offset: var(--focus-ring-offset);
+  }
+}

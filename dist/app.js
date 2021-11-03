@@ -1,0 +1,1 @@
+import*as e from"./modules/data.mjs";import*as r from"./modules/abstracts/selectors.mjs";document.addEventListener("DOMContentLoaded",(()=>{r.cardContainer&&r.searchField&&r.nationality&&r.gender?e.init():console.error("A required HTML element is missing")}));

@@ -1,0 +1,78 @@
+@use 'abstracts' as *;
+
+select,
+input {
+  border: $border;
+  border-radius: $border-radius;
+  padding: .5rem;
+}
+
+select {
+  -webkit-appearance: none;
+  appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>');
+  background-position: right .25rem center;
+  background-repeat: no-repeat;
+  background-size: 1.5rem;
+  padding-right: 2rem;
+}
+
+[type='search'] {
+  background: #fff url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="16" height="16"><path d="M46.82 41.18L37.54 32a20.5 20.5 0 10-17.04 9.12 20.28 20.28 0 0011.38-3.48l9.3 9.3a4 4 0 005.64 0 4 4 0 000-5.76zM20.5 6A14.5 14.5 0 116 20.52 14.52 14.52 0 0120.5 6z"></path></svg>') no-repeat left .5rem center;
+  padding-left: 1.75rem;
+
+  &:invalid {
+    outline: 2px solid red;
+  }
+}
+
+button {
+  align-items: center;
+  background-color: $button-color-background;
+  border-radius: 50%;
+  border: $button-border;
+  color: $button-color-text;
+  cursor: pointer;
+  display: grid;
+  font-family: $font-family;
+  font-size: 0;
+  justify-content: center;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  width: 72px;
+  height: 72px;
+  transition: background-color $transition-duration ease-in-out;
+
+  svg {
+    fill: none;
+    stroke: #666;
+    stroke-width: .5;
+  }
+
+  &:hover {
+    background-color: $button-color-background-hover;
+
+    svg {
+      stroke: $button-color-text;
+    }
+  }
+
+  dialog > & {
+  outline: 4px solid red;
+  }
+}
+
+[method=dialog] {
+  > button {
+    right: 1rem;
+    position: absolute;
+    top: 1rem;
+    width: 36px;
+    height: 36px;
+
+    svg {
+      stroke-width: 1px;
+    }
+  }
+}

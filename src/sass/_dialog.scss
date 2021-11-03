@@ -1,0 +1,75 @@
+@use 'abstracts' as *;
+
+dialog {
+  background-color: $background-color;
+  border-radius: 1rem;
+  border: 1px solid #ccc;
+  left: 50%;
+  overflow: hidden;
+  padding: 2rem;
+  position: fixed;
+  text-align: center;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  width: 420px;
+
+  &::backdrop {
+    background-color: $backdrop-color;
+    backdrop-filter: blur($backdrop-blur);
+  }
+
+  small {
+    color: #999;
+    display: block;
+    font-size: .8rem;
+    margin-bottom: 1rem;
+  }
+
+  figure {
+    background-color: $card-background-color;
+    border: $border;
+    border-radius: calc(#{$border-radius} * 2);
+    padding: 1.5rem;
+  }
+
+  img {
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+  }
+
+  h4 {
+    margin-top: .5rem;
+  }
+
+  p,
+  hr {
+    margin-top: 1rem;
+  }
+
+  hr {
+    border: 0;
+    border-top: $border;
+  }
+
+  > ol {
+      margin-top: 1rem;
+
+      li {
+        background-color: #ccc;
+        border-radius: 50%;
+        color: #0000;
+        display: inline-block;
+        font-size: 0;
+        padding: .25rem;
+
+        + li {
+          margin-left: .66rem;
+        }
+
+        &.active {
+          background-color: #666;
+        }
+      }
+  }
+}
