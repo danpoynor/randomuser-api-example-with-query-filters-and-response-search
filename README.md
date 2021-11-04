@@ -1,6 +1,6 @@
 # RandomUser.me API Example with Query Filters and Response Search
 
-Temp WIP
+An example demonstrating API accessing, filtering, and searching of the returned response.
 
 ## Live Preview
 
