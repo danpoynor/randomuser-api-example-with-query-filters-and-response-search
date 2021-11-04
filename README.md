@@ -6,6 +6,8 @@ An example demonstrating API accessing, filtering, and searching of the returned
 
 [https://danpoynor.github.io/randomuser-api-example-with-query-filters-and-response-search/](https://danpoynor.github.io/randomuser-api-example-with-query-filters-and-response-search/)
 
+## Code Validation
+
 [W3C CSS Validation](https://danpoynor.github.io/randomuser-api-example-with-query-filters-and-response-search/styles.css)
 
 [W3C Markup Validation](https://danpoynor.github.io/randomuser-api-example-with-query-filters-and-response-search/index.html)
