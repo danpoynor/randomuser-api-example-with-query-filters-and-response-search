@@ -26,7 +26,7 @@ An example demonstrating API accessing, filtering, and searching of the returned
   - svg `fill` and `stroke` attributes for button hover color effects
   - `display: grid` layout for responsive design
   - No use of `display: flex`
-  - Styling of newer `<dialog>` element including `::backdrop` pseudo-selector
+  - Styling of newer `<dialog>` element including `::backdrop` pseudo-element (requires latest Chrome or Safari Preview, Firefox Nightly browser versions)
 
 - JavaScript ES7+
   - Template Literals
@@ -47,7 +47,7 @@ An example demonstrating API accessing, filtering, and searching of the returned
   - No `<div>` tags
   - Strict headline hierarchy
   - Search input pattern checking for valid characters
-  - Newer `<dialog>` element (requires latest evergreen browser versions)
+  - Newer `<dialog>` element (requires latest Chrome or Safari Preview, Firefox Nightly browser versions)
 
 </details>
 
