@@ -13,14 +13,14 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dist\/.nojekyll",
-      "oF" : 1
+      "oA" : 0,
+      "oAP" : "\/docs\/.nojekyll",
+      "oF" : 0
     },
-    "\/dist" : {
+    "\/docs" : {
       "ft" : 65536,
       "oA" : 1,
-      "oAP" : "\/dist\/dist",
+      "oAP" : "\/docs\/docs",
       "oF" : 0
     },
     "\/README.md" : {
@@ -33,7 +33,7 @@
       "ft" : 4096,
       "hM" : 2,
       "oA" : 1,
-      "oAP" : "\/README.html",
+      "oAP" : "\/docs\/README.html",
       "oF" : 3,
       "oFM" : 0,
       "oS" : 0,
@@ -48,7 +48,7 @@
       "ma" : 3,
       "mi" : 2,
       "oA" : 0,
-      "oAP" : "\/dist\/app.js",
+      "oAP" : "\/docs\/app.js",
       "oF" : 1,
       "sC" : 1,
       "tS" : 0
@@ -58,7 +58,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/favicon.ico",
+      "oAP" : "\/docs\/favicon.ico",
       "oF" : 0
     },
     "\/src\/index.pug" : {
@@ -67,7 +67,7 @@
       "ft" : 512,
       "hM" : 2,
       "oA" : 0,
-      "oAP" : "\/dist\/index.html",
+      "oAP" : "\/docs\/index.html",
       "oF" : 0,
       "oS" : 0
     },
@@ -76,7 +76,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/modules\/abstracts\/selectors.mjs",
+      "oAP" : "\/docs\/modules\/abstracts\/selectors.mjs",
       "oF" : 1
     },
     "\/src\/modules\/abstracts\/templates.mjs" : {
@@ -84,7 +84,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/modules\/abstracts\/templates.mjs",
+      "oAP" : "\/docs\/modules\/abstracts\/templates.mjs",
       "oF" : 0
     },
     "\/src\/modules\/abstracts\/utilities.mjs" : {
@@ -92,7 +92,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/modules\/abstracts\/utilities.mjs",
+      "oAP" : "\/docs\/modules\/abstracts\/utilities.mjs",
       "oF" : 1
     },
     "\/src\/modules\/abstracts\/variables.mjs" : {
@@ -100,7 +100,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/modules\/abstracts\/variables.mjs",
+      "oAP" : "\/docs\/modules\/abstracts\/variables.mjs",
       "oF" : 0
     },
     "\/src\/modules\/cards.mjs" : {
@@ -108,7 +108,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/modules\/cards.mjs",
+      "oAP" : "\/docs\/modules\/cards.mjs",
       "oF" : 0
     },
     "\/src\/modules\/data.mjs" : {
@@ -116,7 +116,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/modules\/data.mjs",
+      "oAP" : "\/docs\/modules\/data.mjs",
       "oF" : 1
     },
     "\/src\/modules\/dialog.mjs" : {
@@ -124,7 +124,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/modules\/dialog.mjs",
+      "oAP" : "\/docs\/modules\/dialog.mjs",
       "oF" : 0
     },
     "\/src\/modules\/dialogcarousel.mjs" : {
@@ -132,7 +132,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/modules\/dialogcarousel.mjs",
+      "oAP" : "\/docs\/modules\/dialogcarousel.mjs",
       "oF" : 0
     },
     "\/src\/modules\/employees.mjs" : {
@@ -140,7 +140,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/modules\/employees.mjs",
+      "oAP" : "\/docs\/modules\/employees.mjs",
       "oF" : 0
     },
     "\/src\/modules\/search.mjs" : {
@@ -148,7 +148,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/modules\/search.mjs",
+      "oAP" : "\/docs\/modules\/search.mjs",
       "oF" : 1
     },
     "\/src\/sass\/_a11y.scss" : {
@@ -160,7 +160,7 @@
       "ft" : 4,
       "ma" : 3,
       "oA" : 1,
-      "oAP" : "\/dist\/_a11y.css",
+      "oAP" : "\/docs\/_a11y.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 2,
@@ -175,7 +175,7 @@
       "ft" : 4,
       "ma" : 3,
       "oA" : 1,
-      "oAP" : "\/dist\/_base.css",
+      "oAP" : "\/docs\/_base.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 2,
@@ -190,7 +190,7 @@
       "ft" : 4,
       "ma" : 3,
       "oA" : 1,
-      "oAP" : "\/dist\/_cards.css",
+      "oAP" : "\/docs\/_cards.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 2,
@@ -205,7 +205,7 @@
       "ft" : 4,
       "ma" : 3,
       "oA" : 1,
-      "oAP" : "\/dist\/_dialog-carousel.css",
+      "oAP" : "\/docs\/_dialog-carousel.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 2,
@@ -220,7 +220,7 @@
       "ft" : 4,
       "ma" : 3,
       "oA" : 1,
-      "oAP" : "\/dist\/_dialog.css",
+      "oAP" : "\/docs\/_dialog.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 2,
@@ -235,7 +235,7 @@
       "ft" : 4,
       "ma" : 3,
       "oA" : 1,
-      "oAP" : "\/dist\/_form.css",
+      "oAP" : "\/docs\/_form.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 2,
@@ -250,7 +250,7 @@
       "ft" : 4,
       "ma" : 3,
       "oA" : 1,
-      "oAP" : "\/dist\/_header.css",
+      "oAP" : "\/docs\/_header.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 2,
@@ -265,7 +265,7 @@
       "ft" : 4,
       "ma" : 3,
       "oA" : 1,
-      "oAP" : "\/dist\/_index.css",
+      "oAP" : "\/docs\/_index.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 2,
@@ -280,7 +280,7 @@
       "ft" : 4,
       "ma" : 3,
       "oA" : 1,
-      "oAP" : "\/dist\/_variables.css",
+      "oAP" : "\/docs\/_variables.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 2,
@@ -295,7 +295,7 @@
       "ft" : 4,
       "ma" : 3,
       "oA" : 0,
-      "oAP" : "\/dist\/styles.css",
+      "oAP" : "\/docs\/styles.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 1,
@@ -314,7 +314,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-red",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 657745821.01752496
+    "lastBuiltDate" : 657747765.37082195
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
@@ -610,7 +610,7 @@
     "browserslistString" : ">1%, last 2 versions, not IE >= 1",
     "buildEnvironment" : 0,
     "buildFolderActive" : 1,
-    "buildFolderName" : "dist",
+    "buildFolderName" : "docs",
     "cleanBuild" : 1,
     "coffeeLintFlags2" : {
       "arrow_spacing" : {
@@ -2351,7 +2351,7 @@
     "webpPresets" : {
 
     },
-    "websiteRelativeRoot" : "dist"
+    "websiteRelativeRoot" : "docs"
   },
   "settingsFileVersion" : "3"
 }
