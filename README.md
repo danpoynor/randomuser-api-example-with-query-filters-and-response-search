@@ -4,7 +4,11 @@ An example demonstrating API accessing, filtering, and searching of the returned
 
 ## Live Preview
 
-TODO: Add GitHub page link
+[https://danpoynor.github.io/randomuser-api-example-with-query-filters-and-response-search/](https://danpoynor.github.io/randomuser-api-example-with-query-filters-and-response-search/)
+
+[W3C CSS Validation](https://danpoynor.github.io/randomuser-api-example-with-query-filters-and-response-search/styles.css)
+
+[W3C Markup Validation](https://danpoynor.github.io/randomuser-api-example-with-query-filters-and-response-search/index.html)
 
 ## Some Technologies Used Highlights
 
@@ -51,30 +55,33 @@ TODO: Add GitHub page link
 
   <summary>Click to expand/collapse</summary>
 
-- CodeKit
+- [CodeKit](https://codekitapp.com/)
 
   Used to:
-  - Compile Dart SASS files into CSS
-  - Complile Pug file into HTML
+  - Streamline package.json NPM management
+  - Compile [Dart SASS](https://sass-lang.com/dart-sass) files into CSS
+  - Complile [Pug](https://pugjs.org/api/getting-started.html) file into HTML
   - Provide UI for settings and processing management of:
-    - Autoprefixer
-    - PurgeCSS
-    - CSSO
-    - ESLint
-    - Terser
+    - [Autoprefixer](https://github.com/postcss/autoprefixer)
+    - [PurgeCSS](https://purgecss.com/)
+    - [CSSO](https://github.com/css/csso)
+    - [ESLint](https://eslint.org/)
+    - [Terser](https://terser.org/)
   - Provide live browser refreshing
 
-- MAMP Pro
+- [MAMP Pro](https://www.mamp.info/en/mamp-pro/mac/)
 
-  Used to add a MIME type parameter as an Apache Virtual Hosts directive so ES Modules with filename extensions `.mjs` are interpreted as JavaScript:
+  Used to add a MIME type parameter as an [Apache](https://httpd.apache.org/) Virtual Hosts directive so [ES Modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) with filename extensions `.mjs` are interpreted as JavaScript:
 
   ```lang-plaintext
   AddType application/javascript      .mjs
   ```
 
-- Visual Studio Code
+- [Visual Studio Code](https://code.visualstudio.com/)
   - IDE of choice
 
-- Git version control
+- [Git](https://git-scm.com/) version control
+
+- [Apple iMac](https://www.apple.com/imac/) desktop computer
 
 </details>
