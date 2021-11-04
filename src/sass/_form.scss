@@ -57,10 +57,6 @@ button {
       stroke: $button-color-text;
     }
   }
-
-  dialog > & {
-  outline: 4px solid red;
-  }
 }
 
 [method=dialog] {
