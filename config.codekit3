@@ -9,6 +9,14 @@
   ],
   "creatorBuild" : "34214",
   "files" : {
+    "\/.nojekyll" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dist\/.nojekyll",
+      "oF" : 1
+    },
     "\/dist" : {
       "ft" : 65536,
       "oA" : 1,
@@ -306,7 +314,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-red",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 657740254.12201905
+    "lastBuiltDate" : 657745595.09373999
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
