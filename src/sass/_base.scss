@@ -10,7 +10,7 @@
 
 body {
   background-color: $background-color;
-  color: #83898d;
+  color: #55595b;
   font-family: $font-family;
   font-size: 16px;
   font-weight: 400;
@@ -32,7 +32,12 @@ h1 {
 }
 
 h2 {
-  display: none;
+  clip: rect(0 0 0 0);
+  color: transparent;
+  font-size: 0;
+  height: 0;
+  overflow: hidden;
+  width: 0;
 }
 
 h4 {
