@@ -12,7 +12,7 @@ An example demonstrating API accessing, filtering, and searching of the returned
 
 [W3C Markup Validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdanpoynor.github.io%2Frandomuser-api-example-with-query-filters-and-response-search%2F)
 
-## Some Technologies Used Highlights
+## Tech Used Highlights
 
 <details open>
 
