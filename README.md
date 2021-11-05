@@ -8,9 +8,9 @@ An example demonstrating API accessing, filtering, and searching of the returned
 
 ## Code Validation
 
-[W3C CSS Validation](https://danpoynor.github.io/randomuser-api-example-with-query-filters-and-response-search/styles.css)
+[W3C CSS Validation](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdanpoynor.github.io%2Frandomuser-api-example-with-query-filters-and-response-search%2Fstyles.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-[W3C Markup Validation](https://danpoynor.github.io/randomuser-api-example-with-query-filters-and-response-search/index.html)
+[W3C Markup Validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdanpoynor.github.io%2Frandomuser-api-example-with-query-filters-and-response-search%2F)
 
 ## Some Technologies Used Highlights
 
@@ -18,7 +18,7 @@ An example demonstrating API accessing, filtering, and searching of the returned
 
   <summary>Click to expand/collapse</summary>
 
-- Dart Sass
+- Dart Sass / CSS
   - Uses `@use` and `@forward` to manage imports
   - `@media` queries for responsive design
   - `:focus-visible` pseudo-selector for keyboard focus
