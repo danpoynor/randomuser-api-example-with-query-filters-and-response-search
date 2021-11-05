@@ -6,6 +6,16 @@ An example demonstrating API accessing, filtering, and searching of the returned
 
 [https://danpoynor.github.io/randomuser-api-example-with-query-filters-and-response-search/](https://danpoynor.github.io/randomuser-api-example-with-query-filters-and-response-search/)
 
+## Responsive Layout Example Screenshots
+
+<details open>
+
+  <summary>Click to expand/collapse</summary>
+
+  ![danpoynor-api-results-in-responsive-layout-examples](https://user-images.githubusercontent.com/764270/140547469-03dce6ae-bb16-4118-8b14-4085d2f0f8d9.jpg)
+
+</details>
+
 ## Code Validation
 
 [W3C CSS Validation](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdanpoynor.github.io%2Frandomuser-api-example-with-query-filters-and-response-search%2Fstyles.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
